@@ -1,16 +1,14 @@
-react-render
+react-router-render
 ============
 
-[![Build Status](https://travis-ci.org/markfinger/react-render.svg?branch=master)](https://travis-ci.org/markfinger/react-render)
-
-Handles the simple use case of importing a component and rendering it to markup.
+Handles the simple use case of importing a component and rendering it to markup via react-router.
 
 
 Installation
 ------------
 
 ```javascript
-npm install react-render
+npm install react-router-render
 ```
 
 
@@ -18,12 +16,15 @@ Usage
 -----
 
 ```javascript
-var reactRender = require('react-render');
+var reactRouterRender = require('react-router-render');
 
-reactRender({
+reactRouterRender({
 
   // An absolute path to a module exporting your component
   path: '/abs/path/to/component.js',
+  
+  // The URL you are currently trying to render
+  location: '/',
 
   // Optional
   // --------
