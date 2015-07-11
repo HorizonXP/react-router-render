@@ -17,12 +17,13 @@
     "lodash": "^3.6.0"
   },
   "peerDependencies": {
-    "react": ">= 0.12"
+    "react": ">= 0.14.0-beta1",
+    "react-dom": ">= 0.14.0-beta1"
   },
   "devDependencies": {
     "chai": "^2.1.1",
     "mocha": "^2.2.1",
-    "react": "*"
+    "react": "^0.14.0-beta1"
   },
   "scripts": {
     "test": "mocha",
